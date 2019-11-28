@@ -1,0 +1,12 @@
+Limitations:
+Selenium does not support automation testing for desktop applications.
+Selenium requires high skill sets in order to automate tests more effectively.
+Since Selenium is open source software, you have to rely on community forums to get your technical issues resolved.
+We can?t perform automation tests on web services like SOAP or REST using Selenium.
+We should know at least one of the supported programming languages to create tests scripts in Selenium WebDriver.
+It does not have built-in Object Repository like UTF/QTP to maintain objects/elements in centralized location. However, we can overcome this limitation using Page Object Model.
+Selenium does not have any inbuilt reportingcapability; you have to rely on plug-ins like JUnit and TestNG for test reports.
+It is not possible to perform testing on images. We need to integrate Selenium with Sikuli for image based testing.
+Creating test environment in Selenium takes more time as compared to vendor tools like UFT, RFT, Silk test, etc.
+No one is responsible for new features usage; they may or may not work properly.
+Selenium does not provide any test tool integration for Test Management.
