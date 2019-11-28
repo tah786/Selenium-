@@ -1,0 +1,72 @@
+What is SELENIUM?
+Answer:Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite.
+Selenium can be easily deployed on platforms such as Windows, Linux, Solaris and Macintosh. Moreover, 
+it supports OS (Operating System) for mobile applications like iOS, windows mobile and android.
+
+Selenium supports a variety of programming languages through the use of drivers specific to each language.
+Languages supported by Selenium include C#, Java, Perl, PHP, Python and Ruby.Currently, 
+Selenium Web driver is most popular with Java and C#. Selenium test scripts can be coded in
+any of the supported programming languages and can be run directly in most modern web browsers.
+Browsers supported by Selenium include Internet Explorer, Mozilla Firefox, Google Chrome and Safari.
+
+Selenium commands are the set of commands that are used to run our Selenium tests.
+In Selenium WebDriver, we have an entirely different set of commands for performing different operations.
+Since we are using Selenium WebDriver with Java, commands are simply methods written in Java language.
+Note: A java method is a collection of statements that are grouped together to perform a specific operation.
+
+The commands provided by selenium webderiver can be classified into the categories:
+1.Browser commands
+2.Navigate commands
+3.WebElement Commands
+
+Given below are some of the most commonly used Selenium commands in WebDriver:
+
+🌹.Fetching the web page:
+There are two methods to fetch the web page
+     1.using Get method      ➡ driver.get("www.javatpoint.com");
+     2.using Navigate method ➡driver.navigate.to("www.youtube.com");
+     
+🌹.Locating forms and sending user inputs
+
+         driver.findElement(By.id("lst-ib")).sendKeys("javatpoint tutorials");  
+
+🌹.Clearing User inputs
+The clear() method is used to clear the user inputs from the text box.
+
+         driver.findElement(By.name("q")).clear();
+
+🌹.Fetching data over any web element
+  Sometimes we need to fetch the text written over a web element for performing some assertions and debugging. 
+  We use getText() method to fetch data written over any web element.
+  
+         driver.findElement(By.id("element567")).getText();
+  
+🌹.Performing Click event
+The click() method is used to perform click operation on any web element.
+
+         driver.findElement(By.id("btnK")).click();
+         
+🌹.Navigating backward in browser history
+         driver.navigate().back();  
+ 
+🌹.Navigating forward in browser history
+         driver.navigate().forward();  
+🌹.Refresh/ Reload a web page
+         driver.navigate().refresh();  
+🌹.Closing Browser
+        driver.close();  
+🌹. Closing Browser and other all other windows associated with the driver
+        driver.quit();  
+🌹. Moving between Windows
+         driver.switchTo().window("windowName");  
+🌹. Moving between Frames
+         driver.switchTo().frame("frameName");  
+🌹. Drag and Drop
+Drag and Drop operation is performed using the Action class.
+         (new Actions(driver)).dragAndDrop(element, target).perform();
+         
+          WebElement element = driver.findElement(By.name("source"));  
+          WebElement target = driver.findElement(By.name("target"));
+         
+
+ 
