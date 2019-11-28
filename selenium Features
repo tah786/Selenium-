@@ -1,0 +1,15 @@
+Selenium is an open source and portable Web testing Framework.
+Selenium IDE provides a playback and record feature for authoring tests without the need to learn a test scripting language.
+It can be considered as the leading cloud-based testing platform which helps testers to record their actions and export them as a reusable script with a simple-to-understand and easy-to-use interface.
+Selenium supports various operating systems, browsers and programming languages. Following is the list:
+Programming Languages: C#, Java, Python, PHP, Ruby, Perl, and JavaScript
+Operating Systems: Android, iOS, Windows, Linux, Mac, Solaris.
+Browsers: Google Chrome, Mozilla Firefox, Internet Explorer, Edge, Opera, Safari, etc.
+It also supports parallel test execution which reduces time and increases the efficiency of tests.
+Selenium can be integrated with frameworks like Ant and Maven for source code compilation.
+Selenium can also be integrated with testing frameworks like TestNG for application testing and generating reports.
+Selenium requires fewer resources as compared to other automation test tools.
+WebDriver API has been indulged in selenium whichis one of the most important modifications done to selenium.
+Selenium web driver does not require server installation, test scripts interact directly with the browser.
+Selenium commands are categorized in terms of different classes which make it easier to understand and implement.
+Selenium Remote Control (RC) in conjunction with WebDriver API is known as Selenium 2.0. This version was built to support the vibrant web pages and Ajax.
